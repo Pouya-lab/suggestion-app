@@ -5,19 +5,20 @@
 }
 
 .container{
-    font-family: ShowCard Gothic;
+    font-family: Shekasteh_Beta;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: url('../public/img/img-2.jpg')  ;
+    background: url('../public/img/img-3.jpg')  ;
     line-height: 35px;
 }
 
 .header{
     padding-bottom: 200px;
     padding-top: 100px;
+    text-shadow: 5px 5px #aaa;
     font-size: 6vw;
     color: #fff;
 }
@@ -26,10 +27,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
     padding: 35px 100px;
     border-radius: 25px;
     box-shadow: 8px 8px 8px #aaa ;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .show-advice h2   {
@@ -38,26 +45,28 @@
 }
 
 .advice-text{
-    font-size: 30px;
+    font-size: 35px;
     margin: 20px 0;
     padding-bottom: 25px;
     text-align: center;
-    width: 500px;
+    width: 600px;
     word-wrap: break-word;
 }
 
 .btn{
-    font-family: ShowCard Gothic;
+    font-family: Shekasteh_Beta;
     border: 0;
     border-radius: 25px;
     cursor: pointer;
     padding: 20px;
-    font-size:24px ;
-    background-color: rgb(231, 225, 225);
+    font-size:30px ;
+    font-weight: 900;
+    color: #fff;
+    background-color: rgb(74, 182, 74);
     transition: .3s;
 }
 
 .btn:hover{
-    background-color: rgb(94, 92, 92);
+    background-color: rgb(209, 184, 40);
     color: #fff;
 }
