@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    font-family: ShowCard Gothic;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('../public/img/img-2.jpg')  ;
+    line-height: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+    padding-bottom: 200px;
+    padding-top: 100px;
+    font-size: 6vw;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.show-advice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 100px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px #aaa ;
 }
 
-.App-link {
-  color: #61dafb;
+.show-advice h2   {
+    display: flex;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.advice-text{
+    font-size: 30px;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.btn{
+    font-family: ShowCard Gothic;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 20px;
+    font-size:24px ;
+    background-color: rgb(231, 225, 225);
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: rgb(94, 92, 92);
+    color: #fff;
 }
