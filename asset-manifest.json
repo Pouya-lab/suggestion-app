@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pouya-app/static/css/main.9c8879fc.css",
+    "main.js": "/pouya-app/static/js/main.6f58c558.js",
+    "static/media/img-3.jpg": "/pouya-app/static/media/img-3.bae4fe1286673f85c33a.jpg",
+    "index.html": "/pouya-app/index.html",
+    "main.9c8879fc.css.map": "/pouya-app/static/css/main.9c8879fc.css.map",
+    "main.6f58c558.js.map": "/pouya-app/static/js/main.6f58c558.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c8879fc.css",
+    "static/js/main.6f58c558.js"
+  ]
+}
