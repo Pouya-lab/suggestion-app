@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: url('../public/img/img-3.jpg')  ;
+    background: url('../public/img/img-3.jpg') center no-repeat ;
     line-height: 35px;
 }
 
